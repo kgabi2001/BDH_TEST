@@ -8,6 +8,11 @@ bot.on("ready", function(){
     console.log("ready");
 });
 
+if (msg.content.startsWith(perfix + "!help")) {
+    let content = args.join(" ")
+    msg.author.sendMessage(content)
+};
+
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
     
