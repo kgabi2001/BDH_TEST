@@ -12,7 +12,56 @@ bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
     
     if (message.content == "!help") {
-        message.author.sendMessage("help");
+        message.author.sendMessage("karakter parancsok:
+                                   !ash
+                                   !ashprime
+                                   !atlas
+                                   !banshee
+                                   !bansheeprime
+                                   !chroma
+                                   !ember
+                                   !emberprime
+                                   !equinox
+                                   !excalibur
+                                   !excaliburprime
+                                   !frost
+                                   !frostprime
+                                   !harrow
+                                   !hydroid
+                                   !inaros
+                                   !ivara
+                                   !limbo
+                                   !loki
+                                   !lokiprime
+                                   !mag
+                                   !magprime
+                                   !mesa
+                                   !mirage
+                                   !nekros
+                                   !nekrosprime
+                                   !nezha
+                                   !nidus
+                                   !nova
+                                   !novaprime
+                                   !nyx
+                                   !nyxprime
+                                   !oberon
+                                   !octavia
+                                   !rhino
+                                   !rhinoprime
+                                   !saryn
+                                   !sarynprme
+                                   !titania
+                                   !trinity
+                                   !trinityprime
+                                   !valkyr
+                                   !valkyerprime
+                                   !vauban
+                                   !vaubanprime
+                                   !volt
+                                   !voltprime
+                                   !wukong
+                                   !zephyr");
     }
 });
 
