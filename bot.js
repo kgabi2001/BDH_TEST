@@ -19,6 +19,14 @@ bot.on("message", function(message) {
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
     
+    if (message.content == "!kgabi") {
+        message.channel.sendMessage("https://orig00.deviantart.net/d9b3/f/2018/028/a/8/a8ae48bee3bfdc33c54c7f48f577d3e3-dc1f9ju.png");
+    }
+});
+
+bot.on("message", function(message) {
+    if (message.author.equals(bot.user)) return;
+    
     if (message.content == "!cody") {
         message.channel.sendMessage("https://orig00.deviantart.net/64c8/f/2018/028/2/1/primedcody2_by_kgabor2001-dc1f4ft.png");
     }
